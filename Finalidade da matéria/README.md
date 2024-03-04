@@ -26,7 +26,6 @@ numero[9] = 20 // Último espaço definido como tendo o valor 20
 #### Dinâmico (Vector):
 
 Possui um tamanho que aumenta automaticamente com a adição de elementos
-
 Ex:  
 int n = 10 // int com valor 10  
 List<Integer> numeros // Vector criado como Lista, mas não inicializado  
