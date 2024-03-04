@@ -1,15 +1,15 @@
 # Finalidade da aula de Algoritmos e Estruturas de Dados
 
 A aula de Algoritmos e Estruturas de Dados serve para apresentar e ensinar os algoritimos e as estruturas de dados mais utilizadas, além de mostrar como e quando utiliza-las. Assim, conseguiremos saber quando utilizar os melhores algoritimos e estruturas de dados para solucionar o problema que temos em mão.
-
+***
 ## O que é estrutura de dados?
 
 Uma estrutura de dados são jeitos diferentes de armazenar dados, tendo os seus próprios jeitos de editar e buscar os dados. Diferentes estruturas de dados podem ser aplicados para solucionar diferentes problemas do melhor jeito possivel.
-
+***
 ## Qual a importância de estrutura de dados?
 
 Com as estruturas de dados, conseguimos guardar e resgatar dados, e, dependendo da estrutura de dados selecionada, conseguimos fazer isso do jeito mais eficiente possível para solucionar nosso problema.
-
+***
 ## Explicação e exemplos das estruturas de:
 
 ### Array (estático e dinâmico):
@@ -25,7 +25,7 @@ numero[9] = 20 // Ultimo espaço definido como tendo o valor 20
 
 #### Dinâmico:
 
-Possui um tamanho que pode ser reatribuido, definido depois de criarmos o Array
+Possui um tamanho que pode ser atualizado, definido depois de criarmos o Array
 
 Ex:  
 int n = 10 // int com valor 10  
