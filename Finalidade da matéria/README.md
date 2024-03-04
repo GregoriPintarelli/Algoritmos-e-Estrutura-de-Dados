@@ -12,7 +12,7 @@ Com as estruturas de dados, conseguimos guardar e resgatar dados, e, dependendo 
 ***
 ## Explicação e exemplos das estruturas de:
 
-### Array (estático e dinâmico):
+### Array:
 
 Guarda dados baseado em um índice, podendo se atribuir ou buscar um valor a um índice especificando o Array e o índice
 
@@ -21,17 +21,17 @@ Guarda dados baseado em um índice, podendo se atribuir ou buscar um valor a um 
 Possui um tamanho fixo, definido na hora que criamos o Array  
 Ex:  
 int[] numeros = int[10] // Array que contem 10 espaços, de 0 a 9, para ints  
-numero[9] = 20 // Ultimo espaço definido como tendo o valor 20
+numero[9] = 20 // Último espaço definido como tendo o valor 20
 
-#### Dinâmico:
+#### Dinâmico (Vector):
 
-Possui um tamanho que pode ser atualizado, definido depois de criarmos o Array
+Possui um tamanho que aumenta automaticamente com a adição de elementos
 
 Ex:  
 int n = 10 // int com valor 10  
-int[] numeros // Array criado, mas não inicializado  
-numeros = int[n] // Array inicializado com n espaços, de 0 a 9, para ints  
-numero[9] = 20 // Ultimo espaço definido como tendo o valor 20
+List<Integer> numeros // Vector criado como Lista, mas não inicializado  
+numeros = new Vector<Integer>(n) // Array inicializado com n espaços, de 0 a 9, para Integers  
+numero.add(0, 20) // Primeiro espaço definido como tendo o valor 20
 
 ### Lista:
 
